@@ -1,6 +1,6 @@
 name: qs_net_request
 description: "网络请求"
-version: 1.0.0
+version: 1.0.1
 homepage: "https://github.com/FallPine-Flutter/qs_net_request"
 
 environment:
@@ -12,10 +12,8 @@ dependencies:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
   dio: ^5.11.0  # 网络请求库
-  qs_toast: # 提示库
-    path: ../../qs_toast/qs_toast
-  qs_log: # 日志库
-    path: ../../qs_log/qs_log
+  qs_toast: ^1.0.2 # 提示库
+  qs_log: ^1.0.0 # 日志库
 
 dev_dependencies:
   flutter_test:

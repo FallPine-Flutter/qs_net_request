@@ -23,6 +23,12 @@
 # FVM SDK cache (keep .fvmrc and other version configuration)
 **/.fvm/flutter_sdk
 
+# Bundled plugin example generated dependency files
+**/example/pubspec.lock
+**/example/ios/Podfile
+**/example/ios/Flutter/Debug.xcconfig
+**/example/ios/Flutter/Release.xcconfig
+
 # Android generated and machine-local files
 **/android/.gradle/
 **/android/.cxx/
