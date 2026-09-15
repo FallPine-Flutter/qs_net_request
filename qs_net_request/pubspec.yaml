@@ -12,8 +12,10 @@ dependencies:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
   dio: ^5.11.0  # 网络请求库
-  qs_toast: ^1.0.1  # 提示库
-  qs_log: ^1.0.0  # 日志库
+  qs_toast: # 提示库
+    path: ../../qs_toast/qs_toast
+  qs_log: # 日志库
+    path: ../../qs_log/qs_log
 
 dev_dependencies:
   flutter_test:

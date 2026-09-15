@@ -1,0 +1,55 @@
+# macOS and editor-local files
+.DS_Store
+*.log
+*.swp
+*.iml
+.idea/
+.vscode/
+
+# Dart, Flutter, and Pub generated files
+**/.dart_tool/
+**/.packages
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub/
+**/.pub-cache/
+**/build/
+**/coverage/
+**/doc/api/
+**/*.lcov
+**/app.*.symbols
+**/app.*.map.json
+
+# FVM SDK cache (keep .fvmrc and other version configuration)
+**/.fvm/flutter_sdk
+
+# Android generated and machine-local files
+**/android/.gradle/
+**/android/.cxx/
+**/android/local.properties
+**/android/captures/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/android/key.properties
+**/*.keystore
+**/*.jks
+
+# iOS generated files
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/DerivedData/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/xcuserdata/
+**/*.xcuserstate
+**/*.ipa
+**/*.dSYM/
+
+# Local environment files (keep example templates)
+**/.env
+**/.env.*
+!**/.env.example
